@@ -83,20 +83,19 @@ b > 5 || c < 8; // returns true because b > 5 is true
 // console.log('a < 2 or b < 5:', a < 2 || b < 5);
 // console.log('b > 5 or c < 8:', b > 5 || c < 8);
 
-//if statement 
+// if statement 
 // let age = 25;
 // if (age >= 18) {
 //   console.log("You can vote!");
 // }
 
-//if else 
+// //if else 
 // let number = 2
 // if(number > 0){
 //     console.log("number is positive")
 // }
 // else {
 //     console.log("number is not greater than 0")
-// }
 
 //if else if else
 // let number = 2
@@ -115,3 +114,17 @@ b > 5 || c < 8; // returns true because b > 5 is true
 // Use conditionals and comparisons to find which of the 3 is largest 
 // Console.log the result
 // Result: “x is the largest number”
+
+let random1 = Math.floor(Math.random() *50);
+console.log(random1)
+
+let random2 = Math.floor(Math.random() *50);
+console.log(random2)
+
+let random3 = Math.floor(Math.random() *50);
+console.log(random3)
+
+// AND operator
+if (random1 > random3 && random1 > random2){
+    console.log("random1 is greater than random3 and random2")
+}
